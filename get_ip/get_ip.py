@@ -15,7 +15,7 @@ def get_ip():
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
-        description="Baba Shaik's HTTP API for returning a visitor's IP address.")
+        description="Baba Shaik How to HTTP API for returning a visitor's IP address.")
 
     parser.add_argument('hostname', default="0.0.0.0",
                         help='The host IP to listen on. ')
